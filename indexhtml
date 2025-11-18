@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizi Listem.com</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="bg-dark text-white">
+    
+    <header class="bg-secondary bg-opacity-50 py-3 mb-4 shadow">
+        <div class="container text-center">
+            <h1 class="display-4 custom-h1-color mb-1">Dizi Listem</h1>
+            <p class="slogan text-light">türünün en iyi dizileri burada !</p>
+        </div>
+    </header>
+
+    <main class="container py-4">
+
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Aksiyon Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/5c3e0d6b9ad0460aa7e63bb1e1d56c4b75722a98f467f5aa8d22650c27a71e1b.jpg" class="card-img-top img-fluid" alt="Peaky Blinders Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Peaky Blinders</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9155926_b_v10_au.jpg" class="card-img-top img-fluid" alt="Vikings Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Vikings</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/tr/5/57/The_Boys_%282._sezon%29.jpg" class="card-img-top img-fluid" alt="The Boys Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Boys</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://images.justwatch.com/poster/323749083/s718/sezon-3.jpg" class="card-img-top img-fluid" alt="Reacher Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Reacher</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://images.justwatch.com/poster/272744917/s718/marvels-the-punisher.jpg" class="card-img-top img-fluid" alt="The Punisher Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Punisher</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/b8e2ae62-bbcd-4090-97e8-f700459e3648/compose?aspectRatio=1.78&format=webp&width=1200" class="card-img-top img-fluid" alt="Daredevil Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Daredevil</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEf7u-vaBPL6_xGIoY2zKJZ88Q_CPvPDOAng&s" class="card-img-top img-fluid" alt="Jack Ryan Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Jack Ryan</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f4f7e7d4-eb0f-45f9-824f-539e80f47c4a/5265c790-273f-11f0-8628-127c64292ff7?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500" class="card-img-top img-fluid" alt="Banshee Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Banshee</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://tr.web.img2.acsta.net/pictures/19/03/05/08/39/2850939.jpg" class="card-img-top img-fluid" alt="Warrior Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Warrior</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9438754_b_v8_ab.jpg" class="card-img-top img-fluid" alt="Strike Back Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Strike Back</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.1</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Dram Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7AUQ1ap545wJq1Op_9GPLFAV15boesLoyZA&s" class="card-img-top img-fluid" alt="Breaking Bad Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Breaking Bad</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 9.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_.jpg" class="card-img-top img-fluid" alt="Better Call Saul Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Better Call Saul</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjRmMTNiMTQtMDg1ZS00MGM1LWE1MGUtYjEzMGFjNWUzOWRkXkEyXkFqcGc@._V1_.jpg" class="card-img-top img-fluid" alt="The Sopranos Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Sopranos</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 9.2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="The Last of Us Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Last of Us</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/1ba5342c3fef8c998aee3c8d019d2e15db3f3c639e7ab622f70e8699b6563652.jpg" class="card-img-top img-fluid" alt="The Night Of Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Night Of</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://thumbor.evrimagaci.org/Zh44iJSFKB-hC_CeBaxFA9SQKLo=/old%2Fmi_media%2F360b4c4880411febf506d60ba9aaf969.png" class="card-img-top img-fluid" alt="Mindhunter Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Mindhunter</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4ffd33c9-e0d6-4cd6-bd13-34c266c79be0/98da21bc-ae07-4f93-887a-ea6d9a7a7063?host=wbd-images.prod-vod.h264.io&partner=beamcom" class="card-img-top img-fluid" alt="Euphoria Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Euphoria</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTY4OTQ0N2EtMDExMC00NTYzLTk0NmItYTRjNDYxOWU5ZDY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="Sharp Objects Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Sharp Objects</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMDBiNWZjZjUtODJiMC00OGEwLWIwYTItMDNmZjdmN2M3NjY0XkEyXkFqcGc@._V1_.jpg" class="card-img-top img-fluid" alt="Scenes from a Marriage Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Scenes from a Marriage</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/a184cd3e5b1ef34ffcaa1950324be3fcc050a00d98c5e88a27f90acbcdc2e4cb.jpg" class="card-img-top img-fluid" alt="Chernobyl Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Chernobyl</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 9.3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Komedi Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="The Office Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Office</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzBiODQxZTUtNjc0MC00Yzc1LThmYTMtN2YwYTU3NjgxMmI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="Brooklyn Nine-Nine Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Brooklyn Nine-Nine</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/559b4b05-9c8e-4e19-89d2-30a74febb0c0/compose?aspectRatio=1.78&format=webp&width=1200" class="card-img-top img-fluid" alt="How I Met Your Mother Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">How I Met Your Mother</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/52dae4c7-2ab1-4bb9-ab1c-8100fd54e2f9/b29b3d80-ab56-11ef-9fed-0affd17b6387?host=wbd-images.prod-vod.h264.io&partner=beamcom" class="card-img-top img-fluid" alt="Friends Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Friends</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/77daa47b-1d60-450f-849a-e10cad30f871/compose?aspectRatio=1.78&format=webp&width=1200" class="card-img-top img-fluid" alt="Modern Family Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Family</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNDlhMzAwNTAtNTk2NS00MTdkLWE3ZWYtMDU0MTFiYmU2ZTc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="Parks and Recreation Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Parks and Recreation</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/37a86a2d2b995f3a290efccac9b676ea58db6cb74736aeb9e1bbbb8dbb1fc44d.jpg" class="card-img-top img-fluid" alt="Community Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Community</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Gerilim Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://thumbor.evrimagaci.org/Zh44iJSFKB-hC_CeBaxFA9SQKLo=/old%2Fmi_media%2F360b4c4880411febf506d60ba9aaf969.png" class="card-img-top img-fluid" alt="Mindhunter Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Mindhunter</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="True Detective Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">True Detective</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/6af1af14d1a248bacdd04f11749c57ec9b8336c143413fd5adf07e21c8d93cb8.jpg" class="card-img-top img-fluid" alt="Hannibal Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Hannibal</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/I/81zXtlliBKL._AC_UF894,1000_QL80_.jpg" class="card-img-top img-fluid" alt="You Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">You</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 7.7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTRkNGZlMjUtZGVhZi00YjgzLTgwZmMtMGVlZTc4OGUzODk1XkEyXkFqcGc@._V1_.jpg" class="card-img-top img-fluid" alt="The Sinner Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Sinner</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 7.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTY4OTQ0N2EtMDExMC00NTYzLTk0NmItYTRjNDYxOWU5ZDY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="Sharp Object Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Sharp Object</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.1</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Bilim Kurgu Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/da/DarkNetflixPosterEnglish.jpg" class="card-img-top img-fluid" alt="Dark Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://resizing.flixster.com/yL-MXHM_ttXdnKBofDnTdOQf_WE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmQ5YTcxMDgtZWI5My00MmQzLWI1OGMtNTI0Zjk1NGYyYTBhLmpwZw==" class="card-img-top img-fluid" alt="Black Mirror Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Mirror</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/I/81V2yYyPA2L._AC_UF894,1000_QL80_.jpg" class="card-img-top img-fluid" alt="Westworld Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Westworld</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYzUyYmI3MjctY2Q2MC00NmFjLTgwZGUtNWQzZWNlYmVjNzE2XkEyXkFqcGc@._V1_.jpg" class="card-img-top img-fluid" alt="The Expanse Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Expanse</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/d/dc/Stranger_Things_%281._sezon%29.jpg/250px-Stranger_Things_%281._sezon%29.jpg" class="card-img-top img-fluid" alt="Stranger Things Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Stranger Things</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Hiciv Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/b63090bf835d5108f78e142322e3b8d5af5ed1590b2a4ad84cbdba639dcc9b47.jpg" class="card-img-top img-fluid" alt="Succession Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Succession</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/c8a10148fc084116e0330825b129d98267bb6177c52a41fadf82ce5c7bb11eb9.jpg" class="card-img-top img-fluid" alt="Veep Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Veep</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://resizing.flixster.com/JLcQZZw-D8vYkMF6A4QDvOCkyzY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2NjMDdiZmEtM2U4Yi00ZDc2LTljYWYtM2VlNDhiZjhmMDUzLmpwZw==" class="card-img-top img-fluid" alt="The White Lotus Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The White lotus</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 7.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/5/57/The_Boys_%282._sezon%29.jpg/250px-The_Boys_%282._sezon%29.jpg" class="card-img-top img-fluid" alt="The Boys Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">The Boys</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.7</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/7bdadb6df5237d83f3ce8596dd7173b9d7ed5116af56469f3fd1e2ff8e552943.jpg" class="card-img-top img-fluid" alt="Barry Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Barry</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/763c0d632cc2e7b97733528c8691529ded913b45b6741dfb99b884fc7c589d83.jpg" class="card-img-top img-fluid" alt="Fleabag Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Fleabag</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <h2 class="h4 text-center mb-4 custom-h1-color border-bottom border-warning pb-2">Animasyon Dizileri</h2>
+        <section class="row justify-content-center g-4 mb-5">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://images.justwatch.com/poster/249537954/s718/sezon-1.jpg" class="card-img-top img-fluid" alt="Rick and Morty Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Rick and Morty</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 9.1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://thumbor.evrimagaci.org/j47j0Fbi1DSHDiuLfxTXaC85C1A=/old%2Fmi_media%2F1aa945d9e8c1b6fd0bf30f815e59a510.jpeg" class="card-img-top img-fluid" alt="Arcane Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">Arcane</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 9.0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 series-item custom-bg-color text-center">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmMwMDlkNTEtMmQzZS00ODQ0LWJlZmItOTgwYWMwZGM4MzFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top img-fluid" alt="BoJack Horseman Afişi">
+                    <div class="card-body">
+                        <h5 class="card-title">BoJack Horseman</h5>
+                        <p class="card-text custom-h1-color fw-bold">IMDb: 8.8</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    </body>
+</html>
