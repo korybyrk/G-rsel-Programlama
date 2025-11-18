@@ -1,0 +1,62 @@
+/* Temel Renk Değişkenleri */
+:root {
+    --primary-dark-bg: #2c3e50;    /* Koyu Gri */
+    --secondary-bg: #34495e;       /* Biraz daha koyu gri */
+    --accent-color: #e67e22;       /* Koyu Turuncu */
+    --accent-color-hover: #d35400; /* Turuncu Hover */
+    --white-text: #ecf0f1;
+}
+
+/* Sayfa Arka Planı */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-dark-bg) !important; 
+}
+
+/* Aksan rengi kullanan öğeler (Başlık, IMDb puanı) */
+.custom-h1-color {
+    color: var(--accent-color) !important;
+}
+
+/* Sekmelerin ve Kartların Arka Planı */
+.custom-bg-color {
+    background-color: var(--secondary-bg) !important;
+}
+
+/* Dizi Kartı Stili */
+.series-item {
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Kartın Üzerine Gelince Tema Değişimi */
+.series-item:hover {
+    background-color: var(--accent-color) !important; 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Afiş Yüksekliğini Ayarlama */
+.card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+}
+
+/* Bootstrap Sekme (Nav-Pill) Stillerini Turuncuya Çevirme */
+.custom-tab-btn {
+    color: #ecf0f1 !important; /* Pasifken Beyaz Metin */
+    border: 1px solid var(--accent-color) !important;
+    margin: 5px;
+}
+
+.custom-tab-btn.active {
+    background-color: var(--accent-color) !important; /* Aktif Sekme Arka Planı Turuncu */
+    color: var(--secondary-bg) !important; /* Aktif Sekme Metni Koyu Gri */
+}
+
+.custom-tab-btn:hover:not(.active) {
+    background-color: var(--secondary-bg);
+    color: var(--accent-color) !important; /* Hover olunca Metin Turuncu */
+    border-color: var(--accent-color-hover) !important;
+}
