@@ -1,0 +1,26 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const kartlar = document.querySelectorAll('.series-item');
+    const modalElement = document.getElementById('diziDetayModal');
+    const bsModal = new bootstrap.Modal(modalElement);
+    
+    const mResim = document.getElementById('modalResim');
+    const mBaslik = document.getElementById('modalDiziAdi');
+    const mPuan = document.getElementById('modalPuan');
+    const mKonu = document.getElementById('modalKonu');
+
+    kartlar.forEach(kart => {
+        kart.addEventListener('click', function() {
+            const resimSrc = this.querySelector('img').src;
+            const baslikText = this.querySelector('.card-title').innerText;
+            const puanText = this.querySelector('.card-text').innerText;
+            const konuText = this.getAttribute('data-description'); 
+
+            mResim.src = resimSrc;
+            mBaslik.innerText = baslikText;
+            mPuan.innerText = puanText;
+            mKonu.innerText = konuText; 
+
+            bsModal.show();
+        });
+    });
+});
